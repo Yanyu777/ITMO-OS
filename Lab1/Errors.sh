@@ -143,6 +143,14 @@ Errors_Log(){
 	exit 0
 }
 
+Errors_Help(){
+	if(($# != 0));then
+		echo -e "\033[31m ERROR! INCORRECT COMMAND!\033[0m"
+		exit 1
+ 	fi
+	exit 0
+}
+
 Errors_Exit(){
 	if  [[ $# -gt 1 ]];then
 		echo -e "\033[31m ERROR! INCORRECT COMMAND!\033[0m"
