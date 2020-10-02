@@ -2,7 +2,7 @@
 
 echo -e "\033[32m Nice to meet you!\033[0m"
 sleep 1
-echo -e "\033[32m May I help you somthing?\033[0m"
+echo -e "\033[32m May I help you somthing?(1/0)\033[0m"
 read state
 if [[ $state == 0 ]];then
 	echo -e "\033[32m SO SAD...\(O_o)/\nLooking forward to seeing you next time!\033[0m"
@@ -13,7 +13,8 @@ while [[ $state ]]
 do
 bash Help.sh
 echo -e "\033[32m Please enter your command: calc/search/reverse/strlen/log/help/exit\033[0m"
-read $comm in
+read $comm 
+case $comm in
 	calc)
 		echo -e "\033[32mPlease enter your operation(sum/sub/mul/div): \033[0m"
 		read oper
