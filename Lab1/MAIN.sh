@@ -6,7 +6,7 @@ if(($? == 1));then
 	exit 1
 fi
 
-case $1) in
+case $1 in
 	calc) bash Calculator.sh $2 $3 $4;;
 	search) bash Search.sh $2 $3;;
 	reverse) bash Reverse.sh $2 $3;;
