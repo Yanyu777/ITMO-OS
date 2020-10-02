@@ -2,9 +2,9 @@
 
 echo "This is Reverse! Starting reversing!"
 
-content=$(tac $1)
+content=$(tac $1 2>/dev/null)
 
-echo "$content"|rev>$2
+echo $content | rev>$2
 
 echo "The content of the input file is:"
 contentIN=$(cat $1)
