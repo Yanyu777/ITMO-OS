@@ -80,7 +80,7 @@ case $comm in
 
 	interactive)
 
-		echo -e "\033[31mSORRY! YOU CAN NOT USE 'interactive' IN interactive!\n IS ILLEGAL \033[0m"
+		echo -e "\033[31mSORRY! YOU CAN NOT USE 'interactive' IN interactive!\n IS ILLEGAL \033[0m";;
 
 	*)
 		
