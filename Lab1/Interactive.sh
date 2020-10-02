@@ -13,7 +13,7 @@ while [[ $state ]]
 do
 bash Help.sh
 echo -e "\033[32m Please enter your command: calc/search/reverse/strlen/log/help/exit\033[0m"
-read $comm 
+read comm 
 case $comm in
 	calc)
 		echo -e "\033[32mPlease enter your operation(sum/sub/mul/div): \033[0m"
