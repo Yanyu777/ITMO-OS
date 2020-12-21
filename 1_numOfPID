@@ -1,0 +1,7 @@
+#Посчитать количество процессов, запущенных пользователем user, и вывести в файл  получившееся число, а затем пары PID:команда для таких прцессов 
+
+#!/bin/bash
+ps -o pid,command|tail -n +2 >f1.tmp
+
+echo "The number of the PID is: "
+cat f1.tmp|wc -l
