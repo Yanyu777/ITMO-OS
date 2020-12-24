@@ -1,0 +1,21 @@
+#Для всех зарегистрированных в данный момент в системе процессов определить среднее время непрерывного использования процессора(CPU_brust) и вывести в один файл строки ProcessID=PID : Parent_ProcessID=PPID : Average_Running_Time=ART.
+
+#!/bin/bash
+
+out=""
+for i in $(ps -A -o pid|tail -n +2)
+do file_PPid="/proc/"$i"/status" #get PPid
+   file_ART="/proc/"$i"/sched"   #get runtime switches
+   
+   ppid=$(grep -E -h -s -i "ppid:\s(.+)" $file_PPid | grep -o "[0-9]\+")
+   runtime=$(grep -E -h -s -i "sum_exec_runtime(.+)" $file_ART | grep -o "[0-9]\+"|head -n 1)
+   switches=$(grep -E -h -s -i "nr_switches(.+)" $file_ART | grep -o "[0-9]\+")
+if [[ $runtime -ne "0" ]]
+then 
+     ART=$(($runtime/$switches))
+#echo "ProcessID=$i : RUntime=$runtime : sw=$switches : Average_Running_Time=$ART" >> f5.tmp
+    out=$out"ProcessID="$i" : Parent_ProcessID="$ppid" : Average_Running_Time="$ART$'\n'
+fi
+done
+
+echo "$out" | sort -t " " -k2 >>f4.tmp
