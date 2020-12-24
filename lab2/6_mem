@@ -1,0 +1,14 @@
+#!/bin/bash
+
+Memmax=0
+for i in $(ps -A -o pid|tail -n +2)
+do 
+	file_PPid="/proc/"$i"/status"
+	Mem=$(grep -E -h -s -i "VmRSS:\s(.+)" $file_PPid | grep -o "[0-9]\+")
+	if [[ $Mem -gt $Memmax ]]
+	then
+	  Memmax=$Mem
+	fi
+done
+
+echo "Using /proc/pid/status: pid---"$i"  res---"$Memmax 
