@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#command1 & --запуск команд в фоновом режиме
+#  $! ---contain the process ID of the last job that was backgrounded
+# cpulimit ---Limits the CPU usage of a process. It takes pid of process and simply sending its signal "kill -STOP $PID", thereafter "kill -CONT $PID", and again,and again.... (-p, pid of process);(-l, percentage of CPU allowed)
+# kill ----sends a signal to a process
+
+bash ./4_multiply&
+pid1=$!
+
+bash ./4_multiply&
+pid2=$!
+
+bash ./4_multiply&
+pid3=$!
+
+cpulimit -p $pid1 -l 10
+kill $pid3
+
