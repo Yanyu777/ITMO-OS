@@ -1,0 +1,32 @@
+#!/bin/bash
+
+fifo_file=fifo.pipe
+mkfifo $fifo_file
+exec 6<>$fifo_file
+rm $fifo_file
+
+DateWrite()
+{
+	while true
+	do
+		read LINE	
+		echo "$LINE"
+		
+		if [[ $LINE == "QUIT" ]]
+		then
+			echo "STOP"
+			exit 0
+		elif [[ $LINE != "+" && $LINE != "*" && $LINE != [0-9]* ]]
+		then
+			echo "ERROR OCCUR! ARGUMENT WRONG!"
+			exit 1
+		fi
+	done
+}
+
+while true
+do
+	(DateWrite >&6 ) &
+done
+
+

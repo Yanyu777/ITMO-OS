@@ -1,0 +1,40 @@
+#!/bin/bash
+
+anwser=1
+MODE="+"
+
+while read data
+do
+	case $data in
+		"+")
+			MODE="+"
+			echo "ADDING" >> output.file
+			;;
+		"*")
+			MODE="*"
+			echo "MULTIPLYING" >> output.file
+			;;
+		"QUIT")
+			echo "STOP BY QUIT" >> output.file
+			kill $!
+			exit 0
+			;;
+		[0-9]*)
+			case $MODE in
+				"+")
+					answer=$(($answer + $data))
+					echo $answer >> output.file
+					;;
+				"*")
+					answer=$(($answer * $data))
+					echo $answer >> output.file
+					;;	
+			esac
+			;;
+		*)
+			echo "ERROR OCCUR! ARGUMENT WRONG!" >> output.file
+			kill $!
+			exit 1
+			;;
+		esac
+done <&6	
