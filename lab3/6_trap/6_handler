@@ -1,0 +1,39 @@
+#!/bin/bash
+echo $$ > .pid
+A=1
+MODE="+"
+
+usr1()
+{
+	MODE="+"
+}
+
+usr2()
+{
+	MODE="*"
+}
+
+term()
+{
+	MODE="End by SIGTERM from 6_generator"
+	exit 0
+}
+
+trap 'usr1' USR1
+trap 'usr2' USR2
+trap 'term' SIGTERM
+
+while true
+do
+	case $MODE in
+		"+")
+			let A=$A+1
+			echo $A
+			;;
+		"*")
+			let A=$A+1
+			echo $A
+			;;
+	esac
+	sleep 1
+done
