@@ -1,0 +1,443 @@
+top - 23:31:09 up 2 min,  1 user,  load average: 1.55, 0.97, 0.38
+Tasks: 222 total,   3 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.8 us,  6.2 sy,  0.0 ni, 75.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,    217.0 free,   1164.0 used,    644.1 buff/cache
+MiB Swap:    820.0 total,    820.0 free,      0.0 used.    689.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2032 yanyu     20   0 2920456 274968 112476 R  12.5  13.3   0:11.68 gnome-s+
+   2695 yanyu     20   0  973764  65856  40076 S  12.5   3.2   0:01.20 nautilus
+   2774 yanyu     20   0   64508   4848   4020 R   6.2   0.2   0:00.01 top
+      1 root      20   0  245392  14188   9272 S   0.0   0.7   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+--
+top - 23:31:12 up 2 min,  1 user,  load average: 1.55, 0.97, 0.38
+Tasks: 222 total,   2 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11.9 us,  1.4 sy,  0.0 ni, 86.1 id,  0.0 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,    216.9 free,   1164.1 used,    644.1 buff/cache
+MiB Swap:    820.0 total,    820.0 free,      0.0 used.    688.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2032 yanyu     20   0 2920472 275044 112540 S   9.0  13.3   0:11.95 gnome-s+
+   2656 yanyu     20   0  521736  43240  30012 S   3.3   2.1   0:00.96 gnome-t+
+   1575 gdm       20   0 2606016 225800 102336 S   0.3  10.9   0:03.70 gnome-s+
+   2092 yanyu     20   0  387324  10340   8556 S   0.3   0.5   0:00.19 ibus-da+
+   2180 root      20   0  204924  32272  10348 S   0.3   1.6   0:00.24 sssd_kcm
+--
+top - 23:31:15 up 2 min,  1 user,  load average: 1.43, 0.96, 0.38
+Tasks: 223 total,   3 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.0 us,  2.4 sy,  0.0 ni, 64.0 id,  0.0 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,    192.4 free,   1188.6 used,    644.1 buff/cache
+MiB Swap:    820.0 total,    820.0 free,      0.0 used.    664.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0   37380  27796   2836 R  28.5   1.3   0:00.86 bash
+   2032 yanyu     20   0 2920456 275068 112540 S   4.6  13.3   0:12.09 gnome-s+
+   2656 yanyu     20   0  521736  43244  30012 S   1.0   2.1   0:00.99 gnome-t+
+   2092 yanyu     20   0  387324  10340   8556 S   0.7   0.5   0:00.21 ibus-da+
+   2334 yanyu     20   0  228900   9056   8016 S   0.7   0.4   0:00.07 ibus-en+
+--
+top - 23:31:18 up 2 min,  1 user,  load average: 1.39, 0.96, 0.38
+Tasks: 223 total,   4 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 94.2 us,  5.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,    109.8 free,   1271.2 used,    644.1 buff/cache
+MiB Swap:    820.0 total,    820.0 free,      0.0 used.    581.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  121992 112276   2836 R  97.0   5.4   0:03.79 bash
+   2032 yanyu     20   0 2920456 274952 112540 S   0.7  13.3   0:12.11 gnome-s+
+   2180 root      20   0  204924  32272  10348 S   0.3   1.6   0:00.25 sssd_kcm
+   2774 yanyu     20   0   64508   4848   4020 R   0.3   0.2   0:00.03 top
+      1 root      20   0  245392  14188   9272 S   0.0   0.7   0:01.83 systemd
+--
+top - 23:31:21 up 2 min,  1 user,  load average: 1.39, 0.96, 0.38
+Tasks: 223 total,   3 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.3 us,  5.4 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     74.2 free,   1355.3 used,    595.6 buff/cache
+MiB Swap:    820.0 total,    819.2 free,      0.8 used.    498.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  208320 198604   2836 R  97.0   9.6   0:06.73 bash
+     47 root      20   0       0      0      0 S   1.3   0.0   0:00.04 kswapd0
+   2774 yanyu     20   0   64508   4804   3976 R   0.3   0.2   0:00.04 top
+      1 root      20   0  245392  14176   9272 S   0.0   0.7   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+--
+top - 23:31:24 up 2 min,  1 user,  load average: 1.36, 0.96, 0.38
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 94.0 us,  5.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,     68.8 free,   1440.6 used,    515.6 buff/cache
+MiB Swap:    820.0 total,    813.7 free,      6.3 used.    418.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  295968 286252   2836 R  95.7  13.8   0:09.62 bash
+     47 root      20   0       0      0      0 S   2.3   0.0   0:00.11 kswapd0
+    896 rngd      20   0  160228   4436   3704 S   0.3   0.2   0:04.54 rngd
+   2032 yanyu     20   0 2920456 273020 110608 S   0.3  13.2   0:12.12 gnome-s+
+   2695 yanyu     20   0  973764  65392  39612 S   0.3   3.2   0:01.22 nautilus
+--
+top - 23:31:27 up 2 min,  1 user,  load average: 1.36, 0.96, 0.38
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.7 us,  5.3 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,     66.6 free,   1517.3 used,    441.1 buff/cache
+MiB Swap:    820.0 total,    803.7 free,     16.3 used.    345.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  383352 373636   2836 R  95.7  18.0   0:12.50 bash
+     47 root      20   0       0      0      0 S   2.3   0.0   0:00.18 kswapd0
+   1819 gdm       20   0  473972  12428  10672 S   0.3   0.6   0:00.05 gsd-sma+
+   2180 root      20   0  204924  32012  10088 S   0.3   1.5   0:00.26 sssd_kcm
+      1 root      20   0  245392  13964   9272 S   0.0   0.7   0:01.83 systemd
+--
+top - 23:31:30 up 2 min,  1 user,  load average: 1.33, 0.96, 0.39
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 94.0 us,  5.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,     70.0 free,   1582.2 used,    372.9 buff/cache
+MiB Swap:    820.0 total,    793.5 free,     26.5 used.    281.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  471924 462340   2836 R  97.0  22.3   0:15.42 bash
+     47 root      20   0       0      0      0 S   2.0   0.0   0:00.24 kswapd0
+   2774 yanyu     20   0   64508   4804   3976 R   0.3   0.2   0:00.06 top
+      1 root      20   0  245392  13796   9272 S   0.0   0.7   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+--
+top - 23:31:33 up 2 min,  1 user,  load average: 1.31, 0.96, 0.39
+Tasks: 223 total,   3 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 94.3 us,  5.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,     71.1 free,   1660.7 used,    293.2 buff/cache
+MiB Swap:    820.0 total,    789.5 free,     30.5 used.    203.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  560628 550160   2216 R  96.4  26.5   0:18.33 bash
+     47 root      20   0       0      0      0 S   2.0   0.0   0:00.30 kswapd0
+   2695 yanyu     20   0  973764  62132  36352 S   0.3   3.0   0:01.23 nautilus
+   2774 yanyu     20   0   64508   4240   3412 R   0.3   0.2   0:00.07 top
+      1 root      20   0  245392  12116   7608 S   0.0   0.6   0:01.83 systemd
+--
+top - 23:31:36 up 2 min,  1 user,  load average: 1.31, 0.96, 0.39
+Tasks: 223 total,   4 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 92.1 us,  6.3 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.3 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     69.7 free,   1741.8 used,    213.5 buff/cache
+MiB Swap:    820.0 total,    784.0 free,     36.0 used.    124.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  646824 635552   1280 R  94.7  30.6   0:21.18 bash
+     47 root      20   0       0      0      0 S   3.3   0.0   0:00.40 kswapd0
+   1630 gdm       20   0  248356  25656  15448 S   0.3   1.2   0:00.09 Xwayland
+      1 root      20   0  245392   7400   2916 S   0.0   0.4   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+--
+top - 23:31:39 up 2 min,  1 user,  load average: 1.44, 1.00, 0.41
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 92.5 us,  6.9 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,     74.5 free,   1823.4 used,    127.2 buff/cache
+MiB Swap:    820.0 total,    781.7 free,     38.3 used.     58.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  733152 721612   1012 R  94.4  34.8   0:24.02 bash
+     47 root      20   0       0      0      0 S   3.3   0.0   0:00.50 kswapd0
+    863 dbus      20   0   73440   3308   1728 S   0.3   0.2   0:01.66 dbus-da+
+   2180 root      20   0  204924  24020   3320 S   0.3   1.2   0:00.27 sssd_kcm
+   2695 yanyu     20   0  973764  41028  15248 S   0.3   2.0   0:01.24 nautilus
+--
+top - 23:31:42 up 2 min,  1 user,  load average: 1.44, 1.00, 0.41
+Tasks: 223 total,   8 running, 215 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.5 us,  5.2 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     70.7 free,   1879.7 used,     74.6 buff/cache
+MiB Swap:    820.0 total,    776.3 free,     43.7 used.     29.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  823440 811820    932 R  96.1  39.1   0:27.00 bash
+     47 root      20   0       0      0      0 R   2.3   0.0   0:00.57 kswapd0
+   2774 yanyu     20   0   64508   1724    896 R   0.3   0.1   0:00.09 top
+      1 root      20   0  245392   3172    712 S   0.0   0.2   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+--
+top - 23:31:45 up 2 min,  1 user,  load average: 1.41, 1.00, 0.41
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.1 us,  5.6 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     72.9 free,   1901.9 used,     50.3 buff/cache
+MiB Swap:    820.0 total,    707.7 free,    112.2 used.     19.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  910824 899188    916 R  94.4  43.4   0:29.89 bash
+     47 root      20   0       0      0      0 S   3.3   0.0   0:00.67 kswapd0
+      9 root      20   0       0      0      0 S   0.3   0.0   0:00.04 ksoftir+
+      1 root      20   0  245392   2444    628 S   0.0   0.1   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+--
+top - 23:31:48 up 2 min,  1 user,  load average: 1.62, 1.05, 0.43
+Tasks: 223 total,   3 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 90.4 us,  7.3 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.7 hi,  0.7 si,  0.0 st
+MiB Mem :   2025.1 total,     83.6 free,   1887.5 used,     53.9 buff/cache
+MiB Swap:    820.0 total,    602.0 free,    218.0 used.     32.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0  997812 986044    916 R  93.8  47.6   0:32.77 bash
+     47 root      20   0       0      0      0 S   3.9   0.0   0:00.79 kswapd0
+   2180 root      20   0  204924  11684   1500 R   0.3   0.6   0:00.28 sssd_kcm
+   2695 yanyu     20   0  973764  31608   5828 S   0.3   1.5   0:01.25 nautilus
+      1 root      20   0  245392   2428    628 S   0.0   0.1   0:01.83 systemd
+--
+top - 23:31:51 up 2 min,  1 user,  load average: 1.62, 1.05, 0.43
+Tasks: 223 total,   4 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.0 us,  5.3 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.3 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     71.4 free,   1900.1 used,     53.5 buff/cache
+MiB Swap:    820.0 total,    531.3 free,    288.7 used.     19.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1084008   1.0g    916 R  94.4  50.6   0:35.62 bash
+     47 root      20   0       0      0      0 S   2.3   0.0   0:00.86 kswapd0
+   2180 root      20   0  204924  19256   1492 R   0.7   0.9   0:00.30 sssd_kcm
+   2774 yanyu     20   0   64508   1168    732 R   0.7   0.1   0:00.11 top
+   2063 yanyu     20   0  249056  11240    820 S   0.3   0.5   0:00.14 Xwayland
+--
+top - 23:31:54 up 2 min,  1 user,  load average: 1.57, 1.05, 0.43
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.4 us,  5.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.3 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     65.5 free,   1905.8 used,     53.8 buff/cache
+MiB Swap:    820.0 total,    458.0 free,    362.0 used.     14.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1164264   1.0g    916 R  95.3  51.9   0:38.49 bash
+     47 root      20   0       0      0      0 S   2.3   0.0   0:00.93 kswapd0
+   2180 root      20   0  204924  22024   1484 S   0.3   1.1   0:00.31 sssd_kcm
+   2252 yanyu     20   0  388480   2768   1608 S   0.3   0.1   0:00.02 gsd-hou+
+   2695 yanyu     20   0  973764  10100   5828 S   0.3   0.5   0:01.26 nautilus
+--
+top - 23:31:57 up 2 min,  1 user,  load average: 1.57, 1.05, 0.43
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 94.0 us,  5.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.7 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     75.1 free,   1898.1 used,     51.9 buff/cache
+MiB Swap:    820.0 total,    371.0 free,    449.0 used.     22.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1246632   1.0g    916 R  95.7  52.8   0:41.37 bash
+     47 root      20   0       0      0      0 S   2.7   0.0   0:01.01 kswapd0
+   2180 root      20   0  204924  21988   1452 S   0.3   1.1   0:00.32 sssd_kcm
+   2774 yanyu     20   0   64508   1168    732 R   0.3   0.1   0:00.12 top
+      1 root      20   0  245392   2280    628 S   0.0   0.1   0:01.83 systemd
+--
+top - 23:32:00 up 2 min,  1 user,  load average: 1.52, 1.05, 0.44
+Tasks: 223 total,   7 running, 216 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 91.1 us,  7.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.7 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     72.1 free,   1868.5 used,     84.5 buff/cache
+MiB Swap:    820.0 total,    259.0 free,    561.0 used.     36.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1326228   1.0g    916 R  93.4  52.9   0:44.19 bash
+     47 root      20   0       0      0      0 R   3.6   0.0   0:01.12 kswapd0
+   1575 gdm       20   0 2606016  67532   3384 R   0.7   3.3   0:03.72 gnome-s+
+    469 root       0 -20       0      0      0 I   0.3   0.0   0:00.03 kworker+
+   2032 yanyu     20   0 2920456 174332  15988 R   0.3   8.4   0:12.13 gnome-s+
+--
+top - 23:32:03 up 3 min,  1 user,  load average: 1.72, 1.09, 0.45
+Tasks: 223 total,   3 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.3 us,  5.4 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     73.1 free,   1878.2 used,     73.8 buff/cache
+MiB Swap:    820.0 total,    195.0 free,    625.0 used.     31.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1406484   1.1g    916 R  95.0  54.5   0:47.05 bash
+     47 root      20   0       0      0      0 S   2.3   0.0   0:01.19 kswapd0
+   2695 yanyu     20   0  973764  10312   5928 S   0.3   0.5   0:01.27 nautilus
+   2774 yanyu     20   0   64508   1168    732 R   0.3   0.1   0:00.13 top
+      1 root      20   0  245392   1996    628 S   0.0   0.1   0:01.83 systemd
+--
+top - 23:32:06 up 3 min,  1 user,  load average: 1.72, 1.09, 0.45
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.2 us,  5.1 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.4 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     66.8 free,   1891.9 used,     66.4 buff/cache
+MiB Swap:    820.0 total,    132.2 free,    687.8 used.     21.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1486344   1.1g    916 R  95.7  56.0   0:49.93 bash
+     47 root      20   0       0      0      0 S   2.0   0.0   0:01.25 kswapd0
+    647 root      20   0       0      0      0 I   0.3   0.0   0:00.07 kworker+
+   1575 gdm       20   0 2606016  65008   6720 S   0.3   3.1   0:03.73 gnome-s+
+   2170 yanyu     20   0  442324   1680   1604 S   0.3   0.1   0:00.03 goa-ide+
+--
+top - 23:32:09 up 3 min,  1 user,  load average: 1.66, 1.09, 0.46
+Tasks: 223 total,   2 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93.2 us,  5.5 sy,  0.0 ni,  0.0 id,  0.0 wa,  1.0 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,     74.0 free,   1888.5 used,     62.5 buff/cache
+MiB Swap:    820.0 total,     37.9 free,    782.1 used.     27.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1566072   1.1g    916 R  95.3  57.4   0:52.80 bash
+     47 root      20   0       0      0      0 S   3.3   0.0   0:01.35 kswapd0
+      1 root      20   0  245392   1996    628 S   0.0   0.1   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+--
+top - 23:32:12 up 3 min,  1 user,  load average: 2.17, 1.21, 0.50
+Tasks: 223 total,   3 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 63.2 us, 32.0 sy,  0.0 ni,  0.0 id,  1.2 wa,  3.2 hi,  0.5 si,  0.0 st
+MiB Mem :   2025.1 total,     57.1 free,   1916.3 used,     51.6 buff/cache
+MiB Swap:    820.0 total,      0.0 free,    820.0 used.      4.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2777 yanyu     20   0 1639596   1.2g   1428 R  85.1  59.6   0:55.43 bash
+     47 root      20   0       0      0      0 S   8.7   0.0   0:01.62 kswapd0
+   2032 yanyu     20   0 2920456 152780   5524 R   1.3   7.4   0:12.17 gnome-s+
+   2774 yanyu     20   0   64508   1708   1240 R   0.6   0.1   0:00.16 top
+    469 root       0 -20       0      0      0 I   0.3   0.0   0:00.04 kworker+
+--
+top - 23:32:17 up 3 min,  1 user,  load average: 2.17, 1.21, 0.50
+Tasks: 224 total,   7 running, 217 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11.5 us, 77.3 sy,  0.0 ni,  0.0 id,  3.3 wa,  6.6 hi,  1.3 si,  0.0 st
+MiB Mem :   2025.1 total,     51.6 free,   1924.6 used,     48.9 buff/cache
+MiB Swap:    820.0 total,      0.0 free,    820.0 used.     16.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     47 root      20   0       0      0      0 R  61.5   0.0   0:04.16 kswapd0
+   2777 yanyu     20   0 1647516   1.2g    824 R  11.6  59.9   0:55.91 bash
+   2032 yanyu     20   0 2920456 152336   5632 R   6.1   7.3   0:12.42 gnome-s+
+   1575 gdm       20   0 2606016  24544     56 R   4.4   1.2   0:03.91 gnome-s+
+   2774 yanyu     20   0   64508    468      0 R   0.7   0.0   0:00.19 top
+--
+top - 23:32:20 up 3 min,  1 user,  load average: 2.64, 1.32, 0.54
+Tasks: 224 total,   7 running, 217 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.6 us, 80.9 sy,  0.0 ni,  0.0 id,  3.8 wa,  6.5 hi,  1.2 si,  0.0 st
+MiB Mem :   2025.1 total,     51.8 free,   1929.0 used,     44.3 buff/cache
+MiB Swap:    820.0 total,      0.0 free,    820.0 used.     14.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     47 root      20   0       0      0      0 R  60.1   0.0   0:06.15 kswapd0
+   2777 yanyu     20   0 1653852   1.2g    412 R  14.2  60.2   0:56.38 bash
+   2788 root      20   0   25340   1024    804 R   4.5   0.0   0:00.17 awk
+   1575 gdm       20   0 2606016  26740     20 S   3.0   1.3   0:04.01 gnome-s+
+   2695 yanyu     20   0  973764   6780   2300 R   1.8   0.3   0:01.34 nautilus
+--
+top - 23:32:23 up 3 min,  1 user,  load average: 2.43, 1.30, 0.54
+Tasks: 222 total,   2 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.5 us, 25.9 sy,  0.0 ni, 49.0 id, 14.7 wa,  5.9 hi,  1.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1169.5 free,    725.7 used,    129.8 buff/cache
+MiB Swap:    820.0 total,    400.9 free,    419.1 used.   1155.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     47 root      20   0       0      0      0 S  11.9   0.0   0:06.54 kswapd0
+   1575 gdm       20   0 2606016  42596   2748 S   4.0   2.1   0:04.14 gnome-s+
+   2695 yanyu     20   0  973764  13260   8772 S   3.6   0.6   0:01.46 nautilus
+     19 root      20   0       0      0      0 S   1.8   0.0   0:00.06 oom_rea+
+    469 root       0 -20       0      0      0 I   1.5   0.0   0:00.11 kworker+
+--
+top - 23:32:26 up 3 min,  1 user,  load average: 2.43, 1.30, 0.54
+Tasks: 222 total,   3 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 98.3 id,  0.7 wa,  0.0 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,   1165.7 free,    725.8 used,    133.6 buff/cache
+MiB Swap:    820.0 total,    401.1 free,    418.9 used.   1153.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     33 root      20   0       0      0      0 I   0.3   0.0   0:00.07 kworker+
+   1754 root      20   0   60944    688      0 S   0.3   0.0   0:00.01 wpa_sup+
+   2032 yanyu     20   0 2920456 169824  23208 S   0.3   8.2   0:12.46 gnome-s+
+   2656 yanyu     20   0  521736  14384  11700 S   0.3   0.7   0:01.01 gnome-t+
+   2695 yanyu     20   0  973764  13260   8772 S   0.3   0.6   0:01.47 nautilus
+--
+top - 23:32:29 up 3 min,  1 user,  load average: 2.23, 1.28, 0.53
+Tasks: 222 total,   1 running, 221 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  1.0 sy,  0.0 ni, 95.3 id,  1.7 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1153.3 free,    726.8 used,    145.0 buff/cache
+MiB Swap:    820.0 total,    402.1 free,    417.9 used.   1146.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2180 root      20   0  204924  20656      0 S   0.7   1.0   0:00.37 sssd_kcm
+   2774 yanyu     20   0   64508   1540   1072 R   0.7   0.1   0:00.28 top
+    469 root       0 -20       0      0      0 I   0.3   0.0   0:00.12 kworker+
+   1438 gdm       20   0   93864   1268    948 S   0.3   0.1   0:00.10 systemd
+   2032 yanyu     20   0 2920456 169824  23208 S   0.3   8.2   0:12.47 gnome-s+
+--
+top - 23:32:32 up 3 min,  1 user,  load average: 2.23, 1.28, 0.53
+Tasks: 222 total,   2 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.7 sy,  0.0 ni, 97.7 id,  0.7 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1152.1 free,    726.8 used,    146.2 buff/cache
+MiB Swap:    820.0 total,    402.1 free,    417.9 used.   1146.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2180 root      20   0  204924  20656      0 S   0.7   1.0   0:00.39 sssd_kcm
+   2774 yanyu     20   0   64508   1540   1072 R   0.7   0.1   0:00.30 top
+   2032 yanyu     20   0 2920456 170020  23404 S   0.3   8.2   0:12.48 gnome-s+
+   2413 yanyu     20   0 1057792  44012      4 S   0.3   2.1   0:03.10 gnome-s+
+   2656 yanyu     20   0  521736  14384  11700 S   0.3   0.7   0:01.02 gnome-t+
+--
+top - 23:32:35 up 3 min,  1 user,  load average: 2.05, 1.25, 0.53
+Tasks: 222 total,   3 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 98.0 id,  1.0 wa,  0.3 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1151.7 free,    727.1 used,    146.3 buff/cache
+MiB Swap:    820.0 total,    402.1 free,    417.9 used.   1146.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1765 gdm       20   0  688968   2860   2384 S   0.3   0.1   0:00.15 gsd-col+
+   2774 yanyu     20   0   64508   1540   1072 R   0.3   0.1   0:00.31 top
+      1 root      20   0  245392   3044   1748 S   0.0   0.1   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+--
+top - 23:32:38 up 3 min,  1 user,  load average: 1.89, 1.23, 0.53
+Tasks: 222 total,   2 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.0 sy,  0.0 ni, 99.3 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1151.7 free,    727.1 used,    146.3 buff/cache
+MiB Swap:    820.0 total,    402.1 free,    417.9 used.   1146.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2774 yanyu     20   0   64508   1540   1072 R   0.3   0.1   0:00.32 top
+      1 root      20   0  245392   3044   1748 S   0.0   0.1   0:01.83 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+
+--
+top - 23:32:41 up 3 min,  1 user,  load average: 1.89, 1.23, 0.53
+Tasks: 222 total,   5 running, 217 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  0.3 sy,  0.0 ni, 94.6 id,  2.7 wa,  0.7 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1146.6 free,    728.7 used,    149.7 buff/cache
+MiB Swap:    820.0 total,    403.9 free,    416.1 used.   1142.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2032 yanyu     20   0 2920472 173612  26908 S   1.7   8.4   0:12.53 gnome-s+
+   2695 yanyu     20   0  973764  15672  10324 R   0.7   0.8   0:01.49 nautilus
+    469 root       0 -20       0      0      0 I   0.3   0.0   0:00.13 kworker+
+   1441 root      20   0       0      0      0 R   0.3   0.0   0:00.06 kworker+
+   2656 yanyu     20   0  521736  15564  12304 S   0.3   0.8   0:01.03 gnome-t+
+--
+top - 23:32:44 up 3 min,  1 user,  load average: 1.74, 1.21, 0.52
+Tasks: 222 total,   3 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.5 us,  1.0 sy,  0.0 ni, 85.4 id,  3.4 wa,  1.4 hi,  0.3 si,  0.0 st
+MiB Mem :   2025.1 total,   1138.0 free,    732.8 used,    154.2 buff/cache
+MiB Swap:    820.0 total,    407.4 free,    412.6 used.   1137.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2032 yanyu     20   0 2920472 176808  29932 S   6.6   8.5   0:12.73 gnome-s+
+   2656 yanyu     20   0  521736  22052  16024 S   3.0   1.1   0:01.12 gnome-t+
+     10 root      20   0       0      0      0 R   0.3   0.0   0:00.09 rcu_sch+
+   1959 yanyu     20   0   83448   1300    796 S   0.3   0.1   0:00.28 dbus-da+
+   2092 yanyu     20   0  387324   1788      4 S   0.3   0.1   0:00.22 ibus-da+
+--
+top - 23:32:47 up 3 min,  1 user,  load average: 1.74, 1.21, 0.52
+Tasks: 222 total,   3 running, 219 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.3 sy,  0.0 ni, 98.0 id,  0.7 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1137.8 free,    732.8 used,    154.5 buff/cache
+MiB Swap:    820.0 total,    407.4 free,    412.6 used.   1137.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   2032 yanyu     20   0 2920472 176808  29932 S   0.7   8.5   0:12.75 gnome-s+
+   2774 yanyu     20   0   64508   1540   1072 R   0.7   0.1   0:00.36 top
+    884 chrony    20   0  128052    280      0 S   0.3   0.0   0:00.02 chronyd
+   2180 root      20   0  204924  20656      0 S   0.3   1.0   0:00.41 sssd_kcm
+      1 root      20   0  245392   3044   1748 S   0.0   0.1   0:01.83 systemd
+--
+top - 23:32:50 up 3 min,  1 user,  load average: 1.60, 1.19, 0.52
+Tasks: 222 total,   2 running, 220 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.3 sy,  0.0 ni, 98.3 id,  0.3 wa,  0.3 hi,  0.0 si,  0.0 st
+MiB Mem :   2025.1 total,   1137.7 free,    732.8 used,    154.5 buff/cache
+MiB Swap:    820.0 total,    407.4 free,    412.6 used.   1137.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    990 root      20   0  425328   4352   1816 S   0.3   0.2   0:00.52 tuned
+   2032 yanyu     20   0 2920472 176808  29932 S   0.3   8.5   0:12.76 gnome-s+
+   2656 yanyu     20   0  521736  22052  16024 S   0.3   1.1   0:01.13 gnome-t+
+   2774 yanyu     20   0   64508   1540   1072 R   0.3   0.1   0:00.37 top
+      1 root      20   0  245392   3044   1748 S   0.0   0.1   0:01.83 systemd
+--
+top

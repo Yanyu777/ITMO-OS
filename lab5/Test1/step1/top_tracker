@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true
+do
+	top -b |grep 'top - ' -A 11 >> top_history.txt 
+	sleep 1
+done
