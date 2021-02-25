@@ -1,0 +1,9 @@
+#!/bin/bash
+
+N=1250000
+
+for(( i = 0; i < 30; i++ ))
+do
+	bash newmem "$N" &
+	sleep 1
+done
